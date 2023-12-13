@@ -1,5 +1,13 @@
 \documentclass[a4paper, 11pt]{ltjsarticle}
+\usepackage{luatexja}
 \usepackage{multirow}
+\usepackage{siunitx}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{dcolumn}
+\usepackage{longtable}
+\usepackage{subcaption}
+\usepackage{here}
+\usepackage{url}
 \title{理工学基礎実験レポート}
 \date{}
 \author{}
@@ -56,11 +64,16 @@
     \end{tabular}
 \end{table}
 \renewcommand{\arraystretch}{1.0}
+\thispagestyle{empty}
+\clearpage
+\addtocounter{page}{-1}
 
 \section{目的}
 \section{実験方法}
 \section{実験結果}
 \section{考察}
 \section{結論}
-\section*{参考文献}
+\begin{thebibliography}{99}
+
+\end{thebibliography}
 \end{document}
